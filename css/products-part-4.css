@@ -1,0 +1,80 @@
+
+.part-4{
+    padding: 5vw 0;
+    margin-left: auto;margin-right: auto;
+    background-color: #ffffff;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/food.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    }
+.part-4-2{
+    width: 80vw;
+    height: 80vw;
+    position: relative;left: 10vw;
+}
+.img-4-s{
+    position: absolute;
+}
+.img-4-1{
+    top: 0;left: 0;
+    width: 26vw;height: 26vw;
+    background-image: url(../image/img-pd-4-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-4-2{
+    top: 0;left: 27vw;
+    width: 26vw;height: 26vw;
+    background-image: url(../image/img-pd-4-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-4-3{
+    top: 0vw;left: 54vw;
+    width: 26vw;height: 26vw;
+    background-image: url(../image/img-pd-4-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-4-4{
+    top: 35vw;left: 0vw;
+    width: 53vw;height: 45vw;
+    background-image: url(../image/img-pd-4-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-4-5{
+    top: 27vw;left: 54vw;
+    width: 26vw;height: 53vw;
+    background-image: url(../image/img-pd-4-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.title-4-1{
+    top: 27vw;left: 0;
+    width: 53vw;height: 8vw;
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 8vw;
+    text-align: center;
+    color: #5E3424;
+    letter-spacing: 0.2vw;
+}
+@media(max-width:414px){
+    .part-4{
+        padding: 10vw 0;
+    }
+    .title-4-1{
+        width: 53vw;height: 8vw;
+        font-size: 5.5vw;
+        font-weight: bold;
+        line-height: 6vw;
+        text-align: center;
+        color: #5E3424;
+        letter-spacing: 0.2vw;
+    }
+    .img-4-4{
+        top: 40vw;left: 0vw;
+        width: 53vw;height: 40vw;
+    }
+}

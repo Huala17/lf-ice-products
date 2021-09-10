@@ -1,0 +1,127 @@
+.part-3{
+    padding: 5vw 10vw;
+    background-color: #F9F0CF;
+    display: flex;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.item-box-3-1{
+    width: 26vw;
+    margin: 0 0.5vw;
+}
+.title-3-s{
+    font-size: 30px;
+    font-weight: bold;
+    color: #4C2A1D;
+    margin-top: 30px;
+}
+.text-3{
+    width: 23vw;
+    color: #5E3424;
+    margin-top: 20px;
+}
+.img-3{
+    width: 8vw;
+    height: 7.05vw;
+    background-size: cover;
+}
+.img-3-1{
+    background-image: url(../image/img-logoup.png);
+}
+.img-3-2{
+    background-image: url(../image/img-logodown.png);
+}
+.number-box-3{
+    width: 23vw;
+    display: flex;
+}
+.number-box-3-1{
+    margin-top: 5vw;
+}
+.number-box-3-2{
+    margin-bottom: 5vw;
+}
+.number-3{
+    font-size: 3.5vw;
+    font-weight: bold;;
+    color: #7e5d50;
+    margin-right: 30px;
+}
+.line-3{
+    width: 10vw;
+    height: 3vw;
+    border-bottom:2px #7e5d50 solid;
+}
+.number-box-3-s{
+    display: none;
+    width: 80vw;
+}
+
+@media(max-width:768px){
+    .title-3-s{
+        font-size: 18px;
+        font-weight: bold;
+        color: #4C2A1D;
+        margin-top: 30px;
+    }
+    .text-3{
+        font-size: 16px;
+        width: 23vw;
+        color: #5E3424;
+        margin-top: 20px;
+    }
+}
+@media(max-width:414px){
+    .part-3{
+        flex-wrap: wrap;
+        padding: 10vw 10vw;
+    }
+    .item-box-3-1{
+        width: 80vw;
+    }
+    .item-box-3-1-s{
+        margin-bottom: 10vw;
+    }
+    .title-3-s{
+        font-size: 25px;
+        font-weight: bold;
+        color: #4C2A1D;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .text-3{
+        width: 80vw;
+        text-align: center;
+        color: #5E3424;
+        margin-top: 20px;
+    }
+    .img-3{
+        width: 40vw;
+        height: 35.25vw;
+        background-size: cover;
+        margin-left: auto;margin-right: auto;
+    }
+    .number-box-3{
+        display: none;
+    }
+    .number-box-3-s{
+        display: flex;
+        width: 80vw;
+        justify-content: center;
+    }
+    .number-box-3-2{
+        margin-bottom: 5vw;
+    }
+    .number-3{
+        font-size: 15vw;
+        font-weight: bold;;
+        color: #7e5d50;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .line-3{
+        width: 20vw;
+        height: 15vw;
+        border-bottom:2px #7e5d50 solid;
+    }
+
+}
